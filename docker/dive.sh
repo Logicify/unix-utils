@@ -25,7 +25,7 @@
 
 TARGET_CONTAINER=""
 if [ -f "/etc/dive-in-docker.conf" ]; then
-    TARGET_CONTAINER=`cat /etc/dive-in-docker.conf`
+    TARGET_CONTAINER=`cat /etc/dive-into-docker.conf`
 fi
 if [ $# -ge 1 ]
 then
